@@ -1,7 +1,7 @@
 # Snake
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/d0ac4865-04af-48b6-8b49-829c24247c6e" width=80% />
+  <img src="https://github.com/user-attachments/assets/d0ac4865-04af-48b6-8b49-829c24247c6e" width=85% />
 </div>
 
 
@@ -22,7 +22,7 @@ let obstacles =
         torch.max (state.cells.obstacles - (1 - state.cells.border), 0) + snake.length * head
 ```
 
-| <img src="https://github.com/user-attachments/assets/67731f0e-71a9-4983-9872-ee8dcaa92950" width=45% /> |  <img src="https://github.com/user-attachments/assets/f5fda7ee-b0b6-4a95-b48c-b28769b15d47" width=45% />  |
+| <img src="https://github.com/user-attachments/assets/67731f0e-71a9-4983-9872-ee8dcaa92950" width=75% /> |  <img src="https://github.com/user-attachments/assets/f5fda7ee-b0b6-4a95-b48c-b28769b15d47" width=75% />  |
 | :--: | :--: |
 | **外枠に衝突** | **Snake自身に衝突** |
 
